@@ -1,0 +1,44 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.student-card {
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    padding: 20px;
+    text-align: center;
+    width: 300px;
+}
+
+h1 {
+    background-color: #0099cc; /* Warna latar belakang biru */
+    color: #fff;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+.photo {
+    background-color: #ffcc00; /* Warna latar belakang kuning */
+    padding: 10px;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+p {
+    background-color: #66cc99; /* Warna latar belakang hijau muda */
+    padding: 10px;
+    border-radius: 5px;
+    margin: 5px 0;
+}
+
+img {
+    width: 100%;
+    border-radius: 5px;
+}
