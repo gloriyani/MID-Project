@@ -17,13 +17,16 @@ body {
 }
 
 .menu1 {
-    color: #050544;
+    color: rgb(5, 5, 68);
     padding: 10px 100px 10px 5px;
+    text-decoration: none;
+
 }
 
 .menu1 ul {
     display: flex;
-    list-style: none;
+    list-style-type: none;
+    text-decoration: none;
     padding: 5px 0;
     font-weight: bold;
 }
@@ -33,81 +36,83 @@ body {
 }
 
 .menu1 li:hover {
-    border: 1px solid #13294b;
+    border: 10px #13294b solid;
     background-color: #13294b;
     border-radius: 10px;
     font-weight: bold;
-    color: white;
 }
-
 .menu2 {
-    color: gray;
+    color:gray;
     padding: 10px 100px 10px 5px;
+    text-decoration: none;
+
 }
 
 .menu2 ul {
     display: flex;
-    list-style: none;
+    list-style-type: none;
+    text-decoration: none;
     padding: 5px 0;
+    display: flex;
     justify-content: center;
-    align-items: center;
+    align-items:center;     
 }
 
 .menu2 ul li {
     padding: 10px;
 }
-
-.search {
+.search{
     margin: 20px;
 }
-
-.judul1 {
+.judul1{
     margin: 250px;
     width: 600px;
     height: 200px;
 }
-
-.tombol h4 {
+.tombol h4{
     margin: 370px 300px 300px 250px;
     border-radius: 40px;
     background-color: #13294b;
     color: white;
     text-decoration: none;
     padding: 10px 20px;
-    display: inline-block;
-    text-align: center;
-}
 
-.tombol h4:hover {
+}
+.tombol h4:hover{
+
     background-color: white;
     color: #13294b;
     border: 1px solid #13294b;
 }
-
-.background,
-.tombol,
-.judul1 {
+.background,.tombol, .judul1{
     position: absolute;
 }
-
-.judul1 p {
-    color: #070749;
+.judul1 p{
+    color: rgb(7, 7, 73);
     font-size: 30px;
 }
-
-.judul1 h1 {
-    color: #070749;
+.judul1 h1{
+    color: rgb(7, 7, 73);
     font-size: 50px;
 }
-
-.judul2 {
-    border: 1px solid black;
+.judul2{
+    border: solid 1px black;
 }
-
-.background img {
-    max-width: 100%;
+.judul2{
+    margin: 250px;
+    width: 600px;
+    height: 200px;
 }
-
-.background2 img {
-    max-width: 100%;
+.judul2 .judul-h1{
+    font-size: 24px; 
+    color: #0051ff;
+}
+.isi2 .background2 img {
+    display: flex;
+    width: 300px;
+    height:150px;
+    margin-top: 50px;
+}
+#background2 img {
+    
 }
